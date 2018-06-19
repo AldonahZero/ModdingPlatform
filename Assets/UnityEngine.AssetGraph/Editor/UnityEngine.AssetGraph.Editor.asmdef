@@ -1,0 +1,14 @@
+{
+    "name": "UnityEngine.AssetGraph.Editor",
+    "references": [
+        "UnityEngine.AssetGraph"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

@@ -1,0 +1,13 @@
+{
+    "name": "UnityEngine.AssetGraph.Integration.Editor",
+    "references": [
+        "UnityEngine.AssetGraph",
+        "UnityEngine.AssetGraph.Editor"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
