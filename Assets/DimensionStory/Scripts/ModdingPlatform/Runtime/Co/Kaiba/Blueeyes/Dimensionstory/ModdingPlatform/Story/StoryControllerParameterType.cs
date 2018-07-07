@@ -9,6 +9,7 @@
         RateTrigger = 10,
         PlaceTrigger = 11,
         LatLngTrigger = 12,
-        WeatherTrigger = 13
+        WeatherTrigger = 13,
+        TimeTrigger = 14
     }
 }
