@@ -13,11 +13,11 @@ TagManager:
   - UI
   - 
   - 
-  - PostProcessing
-  - 
-  - 
-  - 
-  - 
+  - BloomMobileEffect
+  - Ally
+  - Enemy
+  - FX
+  - Interaction
   - 
   - 
   - 

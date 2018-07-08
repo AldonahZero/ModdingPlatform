@@ -106,7 +106,7 @@ MonoBehaviour:
   - {fileID: 114951675781748388}
   - {fileID: 114210172196096584}
   - {fileID: 114743398584622492}
-  m_SelectedStoryStateMachineBehaviour: 2
+  m_SelectedStoryStateMachineBehaviour: 1
 --- !u!114 &114112036670324852
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -278,7 +278,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Id: 3ac7743d-aa24-436d-ad4b-f88d9468a52a
   m_Disable: 0
-  story: 02d110e8-f8e8-4b55-aa08-933840d54121
+  story: 13103e49-93e8-40ad-a332-00d4b6e206dc
 --- !u!114 &114245312600010754
 MonoBehaviour:
   m_ObjectHideFlags: 1
