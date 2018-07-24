@@ -1,0 +1,12 @@
+{
+    "name": "UnityChan.SpringBone.Editor",
+    "references": [
+        "UnityChan.SpringBone"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

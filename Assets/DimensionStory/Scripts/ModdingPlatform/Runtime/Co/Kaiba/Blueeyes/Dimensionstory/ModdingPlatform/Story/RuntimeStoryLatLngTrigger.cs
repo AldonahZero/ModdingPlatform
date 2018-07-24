@@ -40,11 +40,25 @@ namespace Co.Kaiba.Blueeyes.Dimensionstory.ModdingPlatform.Story
             }
         }
 
+        public string placeName
+        {
+            get
+            {
+                return m_PlaceName;
+            }
+            set
+            {
+                m_PlaceName = value;
+            }
+        }
+
         [SerializeField]
         private double m_Latitude;
         [SerializeField]
         private double m_Longitude;
         [SerializeField]
         private int m_Radius;
+        [SerializeField]
+        private string m_PlaceName;
     }
 }
