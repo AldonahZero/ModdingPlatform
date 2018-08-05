@@ -76,7 +76,7 @@ MonoBehaviour:
   m_Behaviours:
   - {fileID: 114743134820399204}
   - {fileID: 114873946887893896}
-  m_SelectedStoryStateMachineBehaviour: 0
+  m_SelectedStoryStateMachineBehaviour: 1
 --- !u!114 &114035910602894078
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -99,7 +99,7 @@ MonoBehaviour:
   - m_State: {fileID: 114552657787913484}
     m_Position: {x: 960, y: 0, z: 0}
   - m_State: {fileID: 114418231384159382}
-    m_Position: {x: 960, y: 420, z: 0}
+    m_Position: {x: 708, y: 228, z: 0}
   - m_State: {fileID: 114550534685774458}
     m_Position: {x: 1200, y: 0, z: 0}
   m_StateMachines: []
@@ -139,8 +139,58 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Id: f55052de-eeb8-400f-a17b-0ed7f3689638
   m_Disable: 0
-  go: {fileID: 1853818177561202, guid: aa32fbefe0c3456438f7ddcbe3568a6c, type: 2}
+  go: {fileID: 1364453948996546, guid: 16ea15b6377f0384f96cef43fbd2ae76, type: 2}
   idInStory: 
+--- !u!114 &114194846572001078
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d4af6a3c661c4b4aad711428a1b488d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  m_DestinationStateMachine: {fileID: 0}
+  m_DestinationState: {fileID: 114716435722486290}
+  m_Conditions: []
+  m_Duration: 0.25
+  m_Offset: 0
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 1
+  m_HasFixedDuration: 1
+  m_CanTransitionToSelf: 0
+--- !u!114 &114197879538060104
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d4af6a3c661c4b4aad711428a1b488d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  m_DestinationStateMachine: {fileID: 0}
+  m_DestinationState: {fileID: 114550534685774458}
+  m_Conditions: []
+  m_Duration: 0.25
+  m_Offset: 0
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 1
+  m_HasFixedDuration: 1
+  m_CanTransitionToSelf: 0
 --- !u!114 &114209523169695792
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -256,6 +306,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Id: e611488f-1273-40ee-94b3-cbce28dead5a
   m_Disable: 0
+  SpringBone: 1
 --- !u!114 &114418231384159382
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -288,7 +339,7 @@ MonoBehaviour:
   m_Behaviours:
   - {fileID: 114906028903317522}
   - {fileID: 114441217769108160}
-  m_SelectedStoryStateMachineBehaviour: 1
+  m_SelectedStoryStateMachineBehaviour: 0
 --- !u!114 &114441217769108160
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -442,7 +493,7 @@ MonoBehaviour:
   m_Behaviours:
   - {fileID: 114381789427285168}
   - {fileID: 114711971624791418}
-  m_SelectedStoryStateMachineBehaviour: 1
+  m_SelectedStoryStateMachineBehaviour: 0
 --- !u!114 &114562983221958038
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -634,6 +685,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Id: 6771362b-e77d-4b2a-8c18-2d33909e4b37
   m_Disable: 0
+  SpringBone: 1
 --- !u!114 &114887448915116950
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -698,3 +750,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Id: 7d93cf34-4f86-4803-add0-8965f60e053d
   m_Disable: 0
+  SpringBone: 1

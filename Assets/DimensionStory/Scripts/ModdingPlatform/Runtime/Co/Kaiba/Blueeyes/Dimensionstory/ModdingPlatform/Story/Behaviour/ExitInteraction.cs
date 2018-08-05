@@ -2,6 +2,6 @@
 {
     public class ExitInteraction : RuntimeStoryStateMachineBehaviour
     {
-
+        public bool SpringBone;
     }
 }

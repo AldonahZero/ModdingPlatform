@@ -2,6 +2,6 @@
 {
     public class EnterInteraction : RuntimeStoryStateMachineBehaviour
     {
-
+        public bool SpringBone;
     }
 }
