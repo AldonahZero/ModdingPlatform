@@ -1,0 +1,12 @@
+{
+    "name": "VRM.Meta.Editor",
+    "references": [
+        "VRM"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

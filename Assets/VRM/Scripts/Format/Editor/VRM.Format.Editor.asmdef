@@ -1,0 +1,13 @@
+{
+    "name": "VRM.Format.Editor",
+    "references": [
+        "VRM",
+        "UniGLTF",
+        "UniHumanoid",
+        "VRM.SkinnedMeshUtility.Editor"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

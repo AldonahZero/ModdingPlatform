@@ -1,0 +1,11 @@
+{
+    "name": "VRM",
+    "references": [
+        "UniGLTF",
+        "UniHumanoid"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

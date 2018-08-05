@@ -1,0 +1,14 @@
+{
+    "name": "UniGLTF.JsonTool.Editor",
+    "references": [
+        "UniGLTF"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

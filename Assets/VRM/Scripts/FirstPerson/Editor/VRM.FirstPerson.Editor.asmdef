@@ -1,0 +1,12 @@
+{
+    "name": "VRM.FirstPerson.Editor",
+    "references": [
+        "VRM"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

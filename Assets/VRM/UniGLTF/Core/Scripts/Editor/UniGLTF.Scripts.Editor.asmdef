@@ -1,0 +1,12 @@
+{
+    "name": "UniGLTF.Scripts.Editor",
+    "references": [
+        "UniGLTF"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

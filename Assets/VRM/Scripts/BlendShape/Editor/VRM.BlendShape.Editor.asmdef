@@ -1,0 +1,13 @@
+{
+    "name": "VRM.BlendShape.Editor",
+    "references": [
+        "VRM",
+        "UniGLTF"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

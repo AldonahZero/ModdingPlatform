@@ -1,0 +1,13 @@
+{
+    "name": "VRM.Editor",
+    "references": [
+        "VRM",
+        "UniGLTF"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

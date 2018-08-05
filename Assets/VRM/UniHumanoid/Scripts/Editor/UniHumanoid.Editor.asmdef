@@ -1,0 +1,12 @@
+{
+    "name": "UniHumanoid.Editor",
+    "references": [
+        "UniHumanoid"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
