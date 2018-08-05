@@ -98,6 +98,9 @@
 -r:C:/Users/Seto/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll
 -r:C:/Users/Seto/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll
 -r:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
+-r:D:/Seto/ModdingPlatformUnity/Assets/FbxExporters/Editor/FbxSdk/Plugins/UnityFbxSdk.dll
+-r:D:/Seto/ModdingPlatformUnity/Assets/FbxExporters/Editor/UnityFbxExporterEditor.dll
+-r:D:/Seto/ModdingPlatformUnity/Assets/FbxExporters/UnityFbxPrefab.dll
 -r:"C:/Program Files/Unity/Hub/Editor/2018.2.2f1/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2018.2.2f1/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll"
 -r:"C:\Program Files\Unity\Hub\Editor\2018.2.2f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll"

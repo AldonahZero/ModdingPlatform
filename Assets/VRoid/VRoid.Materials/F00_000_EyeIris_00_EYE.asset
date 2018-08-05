@@ -28,7 +28,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 58f834dd820aafb47991bbaba19d0927, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1e50cabded6c2724387de2b49ab7def0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OutlineWidthTexture:
@@ -40,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ShadeTexture:
-        m_Texture: {fileID: 2800000, guid: 58f834dd820aafb47991bbaba19d0927, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1e50cabded6c2724387de2b49ab7def0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SphereAdd:
