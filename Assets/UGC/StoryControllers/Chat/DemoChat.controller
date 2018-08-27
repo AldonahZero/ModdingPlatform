@@ -3,7 +3,7 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -24,42 +24,23 @@ MonoBehaviour:
   - {fileID: 114770924910416694}
   - {fileID: 114805839662155750}
   m_Conditions: []
---- !u!114 &114037826279408062
+--- !u!114 &114008192533423848
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59b58746a93e33a4daa186bba40aac54, type: 3}
-  m_Name: New State 2
+  m_Script: {fileID: 11500000, guid: 9722fed49c0b93a4985ce7490fcb6377, type: 3}
+  m_Name: 
   m_EditorClassIdentifier: 
-  m_Id: 60e27b66-37f6-4cd4-86cf-3b27bfac712d
-  m_Motion: {fileID: 0}
-  m_Speed: 0
-  m_CycleOffset: 0
-  m_Mirror: 0
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 0
-  m_Tag: 
-  m_SpeedParameter: 
-  m_CycleOffsetParameter: 
-  m_MirrorParameter: 
-  m_TimeParameter: 0
-  m_SpeedParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Transitions:
-  - {fileID: 114333097020214232}
-  m_Behaviours:
-  - {fileID: 114061766420809408}
-  m_SelectedStoryStateMachineBehaviour: 0
---- !u!114 &114061766420809408
+  m_Id: a2209eb7-57ff-41a5-9acc-ce92d2f30f1c
+  m_Disable: 0
+--- !u!114 &114068517036751354
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -67,41 +48,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bd175aaef175b448737773816d49bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Id: 15f7b730-c37c-4bb2-a447-13c394bf0fbf
+  m_Id: 8866c0a1-235d-4624-ad35-4d193d8e5de8
   m_Disable: 0
   delay: 1
   gameCharacter: a5025796-fc14-4ec6-9848-cbbb8ac323b1
-  message: "\u308F\u305F\u3057\u306F{name}\u3067\u3059\n\u6211\u662F{name}"
+  message: "GAL Demo\nGAL\u6F14\u793A"
   from: 0
---- !u!114 &114131396626097626
+--- !u!114 &114118515180200916
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70bd175aaef175b448737773816d49bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Id: 0b418ff3-3861-4adb-9966-b53672553a29
-  m_Disable: 0
-  delay: 1
-  gameCharacter: a5025796-fc14-4ec6-9848-cbbb8ac323b1
-  message: "\u6B21\u306F\u3001\u3042\u306A\u305F\u306E\u756A\u3000\u3060\u3088\n\u5230\u4F60\u4E86"
-  from: 1
---- !u!114 &114170463552922156
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 59b58746a93e33a4daa186bba40aac54, type: 3}
-  m_Name: New State 1
+  m_Name: New State 0 0 0 0
   m_EditorClassIdentifier: 
-  m_Id: 044df8cf-05d1-4e3c-8a81-7564aaf5ea3c
+  m_Id: 6224efd9-9920-4e66-bdf4-181f5efe50cd
   m_Motion: {fileID: 0}
   m_Speed: 0
   m_CycleOffset: 0
@@ -118,15 +82,61 @@ MonoBehaviour:
   m_MirrorParameterActive: 0
   m_TimeParameterActive: 0
   m_Transitions:
-  - {fileID: 114431746207873350}
-  - {fileID: 114809308844004188}
+  - {fileID: 114305285635305418}
   m_Behaviours:
-  - {fileID: 114131396626097626}
+  - {fileID: 114214056416163352}
   m_SelectedStoryStateMachineBehaviour: 0
+--- !u!114 &114118807858780470
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bb5e7621f80d6141804632884332e72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Id: 4433cf5a-e42a-42bb-b936-71022993d9d8
+  m_Disable: 0
+  story: 02d110e8-f8e8-4b55-aa08-933840d54121
+--- !u!114 &114162953578385744
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59b58746a93e33a4daa186bba40aac54, type: 3}
+  m_Name: New State 4 0 0 0
+  m_EditorClassIdentifier: 
+  m_Id: b346b592-318d-46af-b7f2-8a218ad13418
+  m_Motion: {fileID: 0}
+  m_Speed: 0
+  m_CycleOffset: 0
+  m_Mirror: 0
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 0
+  m_Tag: 
+  m_SpeedParameter: 
+  m_CycleOffsetParameter: 
+  m_MirrorParameter: 
+  m_TimeParameter: 0
+  m_SpeedParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Transitions: []
+  m_Behaviours:
+  - {fileID: 114395226192854848}
+  - {fileID: 114323805429552998}
+  - {fileID: 114249314579038536}
+  m_SelectedStoryStateMachineBehaviour: 1
 --- !u!114 &114201741970852456
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -151,14 +161,86 @@ MonoBehaviour:
   m_MirrorParameterActive: 0
   m_TimeParameterActive: 0
   m_Transitions:
-  - {fileID: 114753643556322440}
+  - {fileID: 114572225824492996}
+  - {fileID: 114751719144520440}
+  - {fileID: 114855691619014002}
+  - {fileID: 114358535053513638}
   m_Behaviours:
   - {fileID: 114641084517658566}
   m_SelectedStoryStateMachineBehaviour: 0
+--- !u!114 &114214056416163352
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70bd175aaef175b448737773816d49bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Id: 80a176bb-22b1-4008-a107-22df97b38ada
+  m_Disable: 0
+  delay: 1
+  gameCharacter: a5025796-fc14-4ec6-9848-cbbb8ac323b1
+  message: "AR Interaction Demo(VRoid)\nAR\u4EA4\u4E92\u6F14\u793A(VRoid)"
+  from: 0
+--- !u!114 &114249314579038536
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9722fed49c0b93a4985ce7490fcb6377, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Id: 8e110ed4-835e-4bd1-b142-4c1747bdcf96
+  m_Disable: 0
+--- !u!114 &114251035368284410
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4688a6b0e6f083d4381ca326737b43c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Id: 90188546-e533-4d8a-851c-1196c1067249
+  m_Disable: 0
+  story: 13103e49-93e8-40ad-a332-00d4b6e206dc
+--- !u!114 &114259319145182232
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d4af6a3c661c4b4aad711428a1b488d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  m_DestinationStateMachine: {fileID: 0}
+  m_DestinationState: {fileID: 114275423961891822}
+  m_Conditions: []
+  m_Duration: 0.25
+  m_Offset: 0
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 1
+  m_HasFixedDuration: 1
+  m_CanTransitionToSelf: 0
 --- !u!114 &114275423961891822
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -188,10 +270,49 @@ MonoBehaviour:
   - {fileID: 114368068251751726}
   - {fileID: 114316048679664870}
   m_SelectedStoryStateMachineBehaviour: 1
+--- !u!114 &114305285635305418
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d4af6a3c661c4b4aad711428a1b488d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  m_DestinationStateMachine: {fileID: 0}
+  m_DestinationState: {fileID: 114162953578385744}
+  m_Conditions: []
+  m_Duration: 0.25
+  m_Offset: 0
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 1
+  m_HasFixedDuration: 1
+  m_CanTransitionToSelf: 0
+--- !u!114 &114315659858195656
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4688a6b0e6f083d4381ca326737b43c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Id: ed915d11-7979-4b4c-9863-9ea5404011b2
+  m_Disable: 0
+  story: 47efb995-5fbb-467d-9c56-5db9ba432cd0
 --- !u!114 &114316048679664870
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -201,10 +322,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Id: 04a46b50-6c66-4b6a-917f-4008cdcc1837
   m_Disable: 0
+--- !u!114 &114323805429552998
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4688a6b0e6f083d4381ca326737b43c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Id: 13ce86dc-bd60-440a-824e-f4de3112f921
+  m_Disable: 0
+  story: 0d8de735-ec20-4854-b965-db1f1ea54072
 --- !u!114 &114333097020214232
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -226,92 +361,18 @@ MonoBehaviour:
   m_HasExitTime: 1
   m_HasFixedDuration: 1
   m_CanTransitionToSelf: 0
---- !u!114 &114368068251751726
+--- !u!114 &114358155645082590
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4688a6b0e6f083d4381ca326737b43c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Id: 7957458a-65cf-4067-ba02-c3812a3dbe48
-  m_Disable: 0
-  story: 2e9b3f77-7bbf-4b3f-98a3-33dd6b1591b4
---- !u!114 &114431746207873350
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d4af6a3c661c4b4aad711428a1b488d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  m_DestinationStateMachine: {fileID: 0}
-  m_DestinationState: {fileID: 114037826279408062}
-  m_Conditions: []
-  m_Duration: 0.25
-  m_Offset: 0
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 0
-  m_ExitTime: 0.75
-  m_HasExitTime: 1
-  m_HasFixedDuration: 1
-  m_CanTransitionToSelf: 0
---- !u!114 &114579399992715900
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5103347c29a17f42afa78525e0ca641, type: 3}
-  m_Name: Base Layer
-  m_EditorClassIdentifier: 
-  m_Id: f6d87ffe-53de-4130-8dae-c8cf630414d2
-  m_States:
-  - m_State: {fileID: 114201741970852456}
-    m_Position: {x: 180, y: 0, z: 0}
-  - m_State: {fileID: 114606363741063046}
-    m_Position: {x: 432, y: 0, z: 0}
-  - m_State: {fileID: 114170463552922156}
-    m_Position: {x: 672, y: 0, z: 0}
-  - m_State: {fileID: 114037826279408062}
-    m_Position: {x: 912, y: 0, z: 0}
-  - m_State: {fileID: 114275423961891822}
-    m_Position: {x: 1176, y: 0, z: 0}
-  - m_State: {fileID: 114595817741895066}
-    m_Position: {x: 912, y: 384, z: 0}
-  m_StateMachines: []
-  m_DefaultState: {fileID: 114201741970852456}
-  m_AnyStatePosition: {x: 0, y: -100, z: 0}
-  m_EntryPosition: {x: 0, y: 0, z: 0}
-  m_ExitPosition: {x: 180, y: -96, z: 0}
-  m_ParentStateMachinePosition: {x: 0, y: 0, z: 0}
-  m_AnyStateTransitions: []
-  m_EntryTransitions: []
-  m_Behaviours: []
-  m_SelectedStoryStateMachineBehaviour: 0
---- !u!114 &114595817741895066
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 59b58746a93e33a4daa186bba40aac54, type: 3}
-  m_Name: New State 2 0
+  m_Name: New State 0 0
   m_EditorClassIdentifier: 
-  m_Id: 69b83f89-5900-4dcc-878e-3bc5df954aad
+  m_Id: 93f85d1a-5f2f-4ff1-9439-372b6ff32b0e
   m_Motion: {fileID: 0}
   m_Speed: 0
   m_CycleOffset: 0
@@ -328,14 +389,292 @@ MonoBehaviour:
   m_MirrorParameterActive: 0
   m_TimeParameterActive: 0
   m_Transitions:
-  - {fileID: 114672378028382626}
+  - {fileID: 114826195377205262}
   m_Behaviours:
-  - {fileID: 114838533855245720}
+  - {fileID: 114439939725639604}
   m_SelectedStoryStateMachineBehaviour: 0
+--- !u!114 &114358535053513638
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d4af6a3c661c4b4aad711428a1b488d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  m_DestinationStateMachine: {fileID: 0}
+  m_DestinationState: {fileID: 114118515180200916}
+  m_Conditions: []
+  m_Duration: 0.25
+  m_Offset: 0
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 1
+  m_HasFixedDuration: 1
+  m_CanTransitionToSelf: 0
+--- !u!114 &114368068251751726
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4688a6b0e6f083d4381ca326737b43c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Id: 7957458a-65cf-4067-ba02-c3812a3dbe48
+  m_Disable: 0
+  story: 2e9b3f77-7bbf-4b3f-98a3-33dd6b1591b4
+--- !u!114 &114395226192854848
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bb5e7621f80d6141804632884332e72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Id: 937f1de6-6654-4aa8-93ae-de23ff672fc2
+  m_Disable: 0
+  story: 02d110e8-f8e8-4b55-aa08-933840d54121
+--- !u!114 &114404631435846598
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d4af6a3c661c4b4aad711428a1b488d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  m_DestinationStateMachine: {fileID: 0}
+  m_DestinationState: {fileID: 114946395084435504}
+  m_Conditions: []
+  m_Duration: 0.25
+  m_Offset: 0
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 1
+  m_HasFixedDuration: 1
+  m_CanTransitionToSelf: 0
+--- !u!114 &114431746207873350
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d4af6a3c661c4b4aad711428a1b488d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  m_DestinationStateMachine: {fileID: 0}
+  m_DestinationState: {fileID: 0}
+  m_Conditions: []
+  m_Duration: 0.25
+  m_Offset: 0
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 1
+  m_HasFixedDuration: 1
+  m_CanTransitionToSelf: 0
+--- !u!114 &114439939725639604
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70bd175aaef175b448737773816d49bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Id: 85a6c693-7e5d-4561-8ed3-c73e4ae8709a
+  m_Disable: 0
+  delay: 1
+  gameCharacter: a5025796-fc14-4ec6-9848-cbbb8ac323b1
+  message: "AR Interaction Demo\nAR\u4EA4\u4E92\u6F14\u793A"
+  from: 0
+--- !u!114 &114487121942827644
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59b58746a93e33a4daa186bba40aac54, type: 3}
+  m_Name: New State 0
+  m_EditorClassIdentifier: 
+  m_Id: cb443c75-70e6-4f87-be8f-a05cf0cf7bf5
+  m_Motion: {fileID: 0}
+  m_Speed: 0
+  m_CycleOffset: 0
+  m_Mirror: 0
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 0
+  m_Tag: 
+  m_SpeedParameter: 
+  m_CycleOffsetParameter: 
+  m_MirrorParameter: 
+  m_TimeParameter: 0
+  m_SpeedParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Transitions:
+  - {fileID: 114259319145182232}
+  m_Behaviours:
+  - {fileID: 114068517036751354}
+  m_SelectedStoryStateMachineBehaviour: 0
+--- !u!114 &114521543106688384
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9722fed49c0b93a4985ce7490fcb6377, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Id: fe2b04d6-c36c-4ef2-a0fa-ce159a944e48
+  m_Disable: 0
+--- !u!114 &114569701557370174
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59b58746a93e33a4daa186bba40aac54, type: 3}
+  m_Name: New State 4 0
+  m_EditorClassIdentifier: 
+  m_Id: 26b607ba-a1d6-46fb-944d-587eafd4f98c
+  m_Motion: {fileID: 0}
+  m_Speed: 0
+  m_CycleOffset: 0
+  m_Mirror: 0
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 0
+  m_Tag: 
+  m_SpeedParameter: 
+  m_CycleOffsetParameter: 
+  m_MirrorParameter: 
+  m_TimeParameter: 0
+  m_SpeedParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Transitions: []
+  m_Behaviours:
+  - {fileID: 114584945201712852}
+  - {fileID: 114251035368284410}
+  - {fileID: 114008192533423848}
+  m_SelectedStoryStateMachineBehaviour: 1
+--- !u!114 &114572225824492996
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d4af6a3c661c4b4aad711428a1b488d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  m_DestinationStateMachine: {fileID: 0}
+  m_DestinationState: {fileID: 114487121942827644}
+  m_Conditions: []
+  m_Duration: 0.25
+  m_Offset: 0
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 1
+  m_HasFixedDuration: 1
+  m_CanTransitionToSelf: 0
+--- !u!114 &114579399992715900
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5103347c29a17f42afa78525e0ca641, type: 3}
+  m_Name: Base Layer
+  m_EditorClassIdentifier: 
+  m_Id: f6d87ffe-53de-4130-8dae-c8cf630414d2
+  m_States:
+  - m_State: {fileID: 114201741970852456}
+    m_Position: {x: 0, y: 60, z: 0}
+  - m_State: {fileID: 114275423961891822}
+    m_Position: {x: 516, y: 0, z: 0}
+  - m_State: {fileID: 114569701557370174}
+    m_Position: {x: 516, y: 384, z: 0}
+  - m_State: {fileID: 114946395084435504}
+    m_Position: {x: -516, y: 0, z: 0}
+  - m_State: {fileID: 114162953578385744}
+    m_Position: {x: -516, y: 384, z: 0}
+  - m_State: {fileID: 114487121942827644}
+    m_Position: {x: 252, y: 0, z: 0}
+  - m_State: {fileID: 114358155645082590}
+    m_Position: {x: 252, y: 384, z: 0}
+  - m_State: {fileID: 114652817660016834}
+    m_Position: {x: -252, y: 0, z: 0}
+  - m_State: {fileID: 114118515180200916}
+    m_Position: {x: -252, y: 384, z: 0}
+  m_StateMachines: []
+  m_DefaultState: {fileID: 114201741970852456}
+  m_AnyStatePosition: {x: 0, y: -100, z: 0}
+  m_EntryPosition: {x: 0, y: 0, z: 0}
+  m_ExitPosition: {x: 180, y: -96, z: 0}
+  m_ParentStateMachinePosition: {x: 0, y: 0, z: 0}
+  m_AnyStateTransitions: []
+  m_EntryTransitions: []
+  m_Behaviours: []
+  m_SelectedStoryStateMachineBehaviour: 0
+--- !u!114 &114584945201712852
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bb5e7621f80d6141804632884332e72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Id: 638d5af9-6b29-409f-a67f-f15aa8b6921e
+  m_Disable: 0
+  story: 02d110e8-f8e8-4b55-aa08-933840d54121
 --- !u!114 &114601902443475372
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -352,18 +691,52 @@ MonoBehaviour:
   m_IKPass: 0
   m_DefaultWeight: 0
   m_SyncedLayerAffectsTiming: 0
---- !u!114 &114606363741063046
+--- !u!114 &114616573178487870
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70bd175aaef175b448737773816d49bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Id: 035aeb91-a1d3-4c1f-b065-51a7091830fd
+  m_Disable: 0
+  delay: 1
+  gameCharacter: a5025796-fc14-4ec6-9848-cbbb8ac323b1
+  message: "GAL Demo(VRoid)\nGAL\u6F14\u793A(VRoid)"
+  from: 0
+--- !u!114 &114641084517658566
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70bd175aaef175b448737773816d49bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Id: 7689397b-6fa3-4b67-8ee7-ae1ae60ca674
+  m_Disable: 0
+  delay: 1
+  gameCharacter: a5025796-fc14-4ec6-9848-cbbb8ac323b1
+  message: "Which demo would you like  to check?\n\u4F60\u60F3\u770B\u54EA\u4E2Ademo\u5462\uFF1F"
+  from: 1
+--- !u!114 &114652817660016834
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 59b58746a93e33a4daa186bba40aac54, type: 3}
-  m_Name: New State 0
+  m_Name: New State 0 0 0
   m_EditorClassIdentifier: 
-  m_Id: 39656a4f-d980-4336-a806-89f704acfd92
+  m_Id: 0bc3100e-e1a6-4856-a189-7af9655e84f2
   m_Motion: {fileID: 0}
   m_Speed: 0
   m_CycleOffset: 0
@@ -380,31 +753,14 @@ MonoBehaviour:
   m_MirrorParameterActive: 0
   m_TimeParameterActive: 0
   m_Transitions:
-  - {fileID: 114683812037019078}
+  - {fileID: 114404631435846598}
   m_Behaviours:
-  - {fileID: 114892245225174780}
+  - {fileID: 114616573178487870}
   m_SelectedStoryStateMachineBehaviour: 0
---- !u!114 &114641084517658566
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70bd175aaef175b448737773816d49bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Id: 7689397b-6fa3-4b67-8ee7-ae1ae60ca674
-  m_Disable: 0
-  delay: 1
-  gameCharacter: a5025796-fc14-4ec6-9848-cbbb8ac323b1
-  message: "\u3084\u3063\u307B\u30FC\uFF01\n\u5440\u56AF\uFF01"
-  from: 1
 --- !u!114 &114655883443120782
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -418,7 +774,7 @@ MonoBehaviour:
 --- !u!114 &114672378028382626
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -443,7 +799,7 @@ MonoBehaviour:
 --- !u!114 &114683812037019078
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -455,7 +811,7 @@ MonoBehaviour:
   m_Mute: 0
   m_IsExit: 0
   m_DestinationStateMachine: {fileID: 0}
-  m_DestinationState: {fileID: 114170463552922156}
+  m_DestinationState: {fileID: 0}
   m_Conditions: []
   m_Duration: 0.25
   m_Offset: 0
@@ -465,10 +821,10 @@ MonoBehaviour:
   m_HasExitTime: 1
   m_HasFixedDuration: 1
   m_CanTransitionToSelf: 0
---- !u!114 &114753643556322440
+--- !u!114 &114751719144520440
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -480,7 +836,7 @@ MonoBehaviour:
   m_Mute: 0
   m_IsExit: 0
   m_DestinationStateMachine: {fileID: 0}
-  m_DestinationState: {fileID: 114606363741063046}
+  m_DestinationState: {fileID: 114358155645082590}
   m_Conditions: []
   m_Duration: 0.25
   m_Offset: 0
@@ -493,7 +849,7 @@ MonoBehaviour:
 --- !u!114 &114770924910416694
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -510,7 +866,7 @@ MonoBehaviour:
 --- !u!114 &114805839662155750
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -527,7 +883,7 @@ MonoBehaviour:
 --- !u!114 &114809308844004188
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -539,7 +895,7 @@ MonoBehaviour:
   m_Mute: 0
   m_IsExit: 0
   m_DestinationStateMachine: {fileID: 0}
-  m_DestinationState: {fileID: 114595817741895066}
+  m_DestinationState: {fileID: 0}
   m_Conditions: []
   m_Duration: 0.25
   m_Offset: 0
@@ -549,37 +905,86 @@ MonoBehaviour:
   m_HasExitTime: 1
   m_HasFixedDuration: 1
   m_CanTransitionToSelf: 0
---- !u!114 &114838533855245720
+--- !u!114 &114826195377205262
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70bd175aaef175b448737773816d49bd, type: 3}
+  m_Script: {fileID: 11500000, guid: 0d4af6a3c661c4b4aad711428a1b488d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Id: 875a2ab6-3451-4b96-86da-dbc82e66ebd9
-  m_Disable: 0
-  delay: 1
-  gameCharacter: a5025796-fc14-4ec6-9848-cbbb8ac323b1
-  message: "\u304A\u308C\u306F{name}\u3067\u3059\n\u4FFA\u662F{name}"
-  from: 0
---- !u!114 &114892245225174780
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  m_DestinationStateMachine: {fileID: 0}
+  m_DestinationState: {fileID: 114569701557370174}
+  m_Conditions: []
+  m_Duration: 0.25
+  m_Offset: 0
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 1
+  m_HasFixedDuration: 1
+  m_CanTransitionToSelf: 0
+--- !u!114 &114855691619014002
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70bd175aaef175b448737773816d49bd, type: 3}
+  m_Script: {fileID: 11500000, guid: 0d4af6a3c661c4b4aad711428a1b488d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Id: 6cfbe2da-4868-4f04-80cf-e7a3ad48ed4f
-  m_Disable: 0
-  delay: 1
-  gameCharacter: a5025796-fc14-4ec6-9848-cbbb8ac323b1
-  message: "\u3053\u3093\u306B\u3061\u306F\u3002\u308F\u305F\u3057\u226A\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093\u226B\n\u4F60\u597D\u3002\u6211\u662FUnity\u9171"
-  from: 1
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  m_DestinationStateMachine: {fileID: 0}
+  m_DestinationState: {fileID: 114652817660016834}
+  m_Conditions: []
+  m_Duration: 0.25
+  m_Offset: 0
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 1
+  m_HasFixedDuration: 1
+  m_CanTransitionToSelf: 0
+--- !u!114 &114946395084435504
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59b58746a93e33a4daa186bba40aac54, type: 3}
+  m_Name: New State 4 0 0
+  m_EditorClassIdentifier: 
+  m_Id: 40c0272e-f572-412a-8857-4c05ba10f194
+  m_Motion: {fileID: 0}
+  m_Speed: 0
+  m_CycleOffset: 0
+  m_Mirror: 0
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 0
+  m_Tag: 
+  m_SpeedParameter: 
+  m_CycleOffsetParameter: 
+  m_MirrorParameter: 
+  m_TimeParameter: 0
+  m_SpeedParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Transitions: []
+  m_Behaviours:
+  - {fileID: 114118807858780470}
+  - {fileID: 114315659858195656}
+  - {fileID: 114521543106688384}
+  m_SelectedStoryStateMachineBehaviour: 1

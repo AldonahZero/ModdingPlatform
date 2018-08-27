@@ -6,7 +6,7 @@ Please read the license of the assets
 
 Musics: oh-hito
 
-Models: Unity-Chan
+Models: Unity-Chan, VRoid model from Koduku_Hate
 
 Scripts: EditorCoroutine, UnityEngine.AssetGraph
 
@@ -16,6 +16,6 @@ Scripts: EditorCoroutine, UnityEngine.AssetGraph
 
 音乐：oh-hito
 
-模型：Unity酱
+模型：Unity酱,  Koduku_Hate制作的VRoid模型
 
 脚本：EditorCoroutine, UnityEngine.AssetGraph

@@ -289,7 +289,7 @@ MonoBehaviour:
   m_Id: 2fe0e51b-e542-4550-a2bb-8ad56e2c9d89
   m_Disable: 0
   gameCharacter: a5025796-fc14-4ec6-9848-cbbb8ac323b1
-  message: "(\u5979\u597D\u50CF\u5F88\u4F24\u5FC3\u7684\u6837\u5B50\uFF0C\u6478\u6478\u5934\u5B89\u6170\u5B89\u6170\u5427\uFF09"
+  message: "\uFF08She looks sad, touch her head to comfort her\uFF09\n\uFF08\u5979\u770B\u8D77\u6765\u5F88\u4F24\u5FC3\uFF0C\u629A\u6478\u5979\u7684\u5934\uFF0C\u5B89\u6170\u5979\uFF09"
   voice: {fileID: 0}
   idInStory: UnityChan
   from: 0
@@ -339,7 +339,7 @@ MonoBehaviour:
   m_Behaviours:
   - {fileID: 114906028903317522}
   - {fileID: 114441217769108160}
-  m_SelectedStoryStateMachineBehaviour: 0
+  m_SelectedStoryStateMachineBehaviour: 1
 --- !u!114 &114441217769108160
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -354,7 +354,7 @@ MonoBehaviour:
   m_Id: c07fe825-da34-4a37-962f-2e4810be7122
   m_Disable: 0
   gameCharacter: a5025796-fc14-4ec6-9848-cbbb8ac323b1
-  message: "\u8BA8\u538C\uFF0C\u6D41\u6C13\u5440!"
+  message: "No\n\u4E0D\u8981"
   voice: {fileID: 0}
   idInStory: UnityChan
   from: 1
@@ -493,7 +493,7 @@ MonoBehaviour:
   m_Behaviours:
   - {fileID: 114381789427285168}
   - {fileID: 114711971624791418}
-  m_SelectedStoryStateMachineBehaviour: 0
+  m_SelectedStoryStateMachineBehaviour: 1
 --- !u!114 &114562983221958038
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -623,7 +623,7 @@ MonoBehaviour:
   m_Id: baa048fc-9136-4a69-9ee6-2c0ebb4cbe92
   m_Disable: 0
   gameCharacter: a5025796-fc14-4ec6-9848-cbbb8ac323b1
-  message: "\u55EF\u55EF\uFF0C\u6211\u597D\u70B9\u4E86"
+  message: "Emmm, I'm better now\n\u55EF\u55EF\uFF0C\u6211\u597D\u70B9\u4E86"
   voice: {fileID: 0}
   idInStory: UnityChnan
   from: 1
@@ -736,7 +736,7 @@ MonoBehaviour:
   - {fileID: 114209523169695792}
   - {fileID: 114157844217115082}
   - {fileID: 114562983221958038}
-  m_SelectedStoryStateMachineBehaviour: 2
+  m_SelectedStoryStateMachineBehaviour: 1
 --- !u!114 &114906028903317522
 MonoBehaviour:
   m_ObjectHideFlags: 1
